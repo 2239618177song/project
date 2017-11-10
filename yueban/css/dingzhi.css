@@ -1,0 +1,290 @@
+
+.pic{
+    width:100%;
+    min-width:1000px;
+}
+.pic .header{
+    position:relative;
+    z-index: 2;
+}
+.pic .nav{
+    width:100%;
+    min-width:1000px;
+    background-color:rgba(0,0,0,.75);
+    height:40px;
+    position:absolute;
+}
+.pic .nav .n_main{
+    width:1000px;
+    height:100%;
+    margin:0 auto;
+    padding: 0 5px;
+
+}
+.nav .n_main li.p, .nav .n_main li.n{
+    height:100%;
+    float:left;
+    line-height: 40px;
+    text-align:center;
+    margin:0 40px;
+}
+.nav .n_main li.p{
+    width:110px;
+
+}
+.nav .n_main li.n{
+    width:80px;
+    border-top:2px solid transparent;
+    position:relative;
+}
+.nav .n_main li.active{
+    border-top-color:#FFAC00;
+}
+.nav .n_main li.active>a{
+    color:#FFAC00;
+}
+.n_main li.n ul{
+    width:100%;
+    position:absolute;
+    left:0;
+    top:38px;
+    display: none;
+}
+.n_main li.n ul li{
+    width:100%;
+    height:35px;
+    text-align:center;
+    border-top:1px solid #f5f5f5;
+    background-color:rgba(0,0,0,.75);
+}
+.pic>img{
+    width:100%;
+}
+.content{
+    width:100%;
+    height:870px;
+    mid-width:1000px;
+    margin-top:-5px;
+    background: url("../img3/diy-list-2.png") no-repeat center;
+    background-size:cover;
+}
+.content .main1{
+    width:1000px;
+    height:100%;
+    margin:0 auto;
+    position:relative;
+}
+.content .main1 .word{
+    width:540px;
+    height:500px;
+    position:absolute;
+    left:30px;
+    top:50%;
+    margin-top:-250px;
+    text-align:center;
+    color:#666;
+}
+.content .main1 .word h3{
+    font-size:38px;
+    padding:10px 0;
+    color:#333;
+}
+.content .main1 .word p{
+    font-size:18px;
+    padding:10px 0;
+    line-height: 35px;
+}
+.content .main1 .word .open{
+    display: block;
+    width:210px;
+    height:50px;
+    line-height: 50px;
+    margin:40px auto 0;
+    font-size:26px;
+    color:#ffac00;
+    border:1px solid #ffac00;
+    border-radius: 25px;
+}
+.content .main1 .word .open:hover{
+    color:#f5f5f5;
+    background-color:#ffac00;
+}
+.content2{
+    width:100%;
+    height:790px;
+    min-width:1000px;
+    background:url(../img3/diy-list-3.png) no-repeat center;
+    background-size: cover;
+}
+.content2 .main2{
+    width:1000px;
+    height:100%;
+    margin:0 auto;
+    position:relative;
+}
+.content2 .main2 .word2{
+    width:600px;
+    height:500px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top:-250px;
+    margin-left:-300px;
+    text-align:center;
+    color:#f5f5f5;
+
+}
+.content2 .main2 .word2 h3{
+    font-size:36px;
+    padding:30px 0;
+}
+.content2 .main2 .word2 p{
+    font-size:18px;
+    height:35px;
+    padding:10px 0;
+}
+.content2 .main2 .word2 .more{
+    display: block;
+    width:200px;
+    height:50px;
+    line-height: 50px;
+    margin:40px auto 0;
+    font-size:26px;
+    border:1px solid #f5f5f5;
+    border-radius: 25px;
+}
+.content2 .main2 .word2 .more:hover{
+    color:#333;
+    background-color:#f5f5f5;
+}
+.content3{
+    width:100%;
+    height:750px;
+    background:url(../img3/diy-list-4.png) no-repeat center;
+    background-size:cover;
+}
+.content3 .main3{
+    width:1000px;
+    height:100%;
+    margin:0 auto;
+    position:relative;
+}
+.content3 .main3 .word3{
+    width:500px;
+    height:400px;
+    position:absolute;
+    bottom:150px;
+    right:0;
+    text-align:center;
+    color:#666;
+}
+.content3 .main3 .word3 h3{
+    font-size:36px;
+    padding:20px 0;
+    color:#333;
+}
+.content3 .main3 .word3 p{
+    font-size:18px;
+    padding:10px 0;
+}
+.content3 .main3 .word3 .liu{
+    display: block;
+    width:200px;
+    height:50px;
+    line-height: 50px;
+    text-align: center;
+    border:1px solid #ffac00;
+    border-radius: 25px;
+    margin:0 auto;
+    font-size:24px;
+    color:#ffac00;
+    margin-top:30px;
+}
+.content3 .main3 .word3 .liu:hover{
+    color:#f5f5f5;
+    background-color:#ffac00;
+}
+.content4{
+    width:100%;
+    min-width:1000px;
+    height:600px;
+    /*margin-top:-130px;*/
+    position:relative;
+    background:url(../img3/form-background.png) no-repeat center;
+}
+.content4 .main4{
+    width:500px;
+    height:500px;
+    margin:0 auto;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-250px;
+    margin-top:-250px;
+    color:#f5f5f5;
+
+}
+.content4 .main4 h3{
+    font-size:34px;
+    padding:20px 0;
+    text-align:center;
+}
+.content4 .main4 p{
+    font-size:18px;
+    padding:10px 0;
+    text-align:center;
+}
+.content4 .main4 form{
+    width:350px;
+    height:320px;
+    margin:20px auto 0;
+}
+.content4 .main4 form div{
+    color:#333;
+    margin:20px auto;
+    background-color:#f5f5f5;
+    padding:10px;
+    border-radius: 10px;
+}
+.content4 .main4 form div.f1,.content4 .main4 form div.f2{
+    height:50px;
+}
+.content4 .main4 form div.f3{
+    height:80px;
+}
+.content4 .main4 form div.f4{
+    height:50px;
+    background-color:#181818;
+    text-align:center;
+    color:#f5f5f5;
+}
+.content4 .main4 form div input,.content4 .main4 form div textarea{
+    border:none;
+    height:100%;
+    padding:10px;
+    font-size:18px;
+    color:#333;
+    background-color:#f5f5f5;
+}
+.content4 .main4 form div.f1 input{
+    width:105px;
+    line-height: 50px;
+
+}
+.content4 .main4 form div.f1 input:nth-of-type(2){
+    border-left:1px solid #666;
+    border-right:1px solid #666;
+}
+.content4 .main4 form div.f2 input{
+    width:100%;
+}
+.content4 .main4 form div.f3 textarea{
+    width:100%;
+}
+.content4 .main4 form div.f4 input{
+    width:100%;
+    height:100%;
+    outline: none;
+    background-color:#181818;
+    color:#f5f5f5;
+}

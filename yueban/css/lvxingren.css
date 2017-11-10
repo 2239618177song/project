@@ -1,0 +1,297 @@
+textarea,input,button{
+	border:none;
+	outline: none;
+}
+
+.h_next{
+	width:100%;
+	height:220px;
+	min-width:1000px;
+	position: relative;
+}
+
+.h_next .header{
+	height:40px;
+	position:relative;
+	z-index: 2;
+	margin-bottom:40px;
+}
+.h_next .header .nav{
+	width:100%;
+	min-width:1000px;
+	background-color:rgba(0,0,0,.75);
+	height:40px;
+	position:absolute;
+}
+.h_next .nav .n_main{
+	width:1000px;
+	height:100%;
+	margin:0 auto;
+	padding: 0 5px;
+	
+}
+ .nav .n_main li.p, .nav .n_main li.n{
+	height:100%;
+	float:left;
+	line-height: 40px;
+	text-align:center;
+	margin:0 40px;
+}
+ .nav .n_main li.p{
+	width:110px;
+	
+}
+ .nav .n_main li.n{
+	width:80px;
+	border-top:2px solid transparent;
+	position:relative;
+}
+ .nav .n_main li.active{
+	border-top-color:#FFAC00;
+}
+ .nav .n_main li.active>a{
+	color:#FFAC00;
+}
+ .n_main li.n ul{
+	width:100%;
+	position:absolute;
+	left:0;
+	top:38px;
+	display: none;
+}
+ .n_main li.n ul li{
+	width:100%;
+	height:35px;
+	text-align:center;
+	border-top:1px solid #f5f5f5;
+	background-color:rgba(0,0,0,.75);
+}
+.h_next .con{
+	width:1000px;
+	margin:0 auto;
+	margin-top:40px;
+	/*padding-top:20px;*/
+}
+.h_next .con .form{
+	width:100%;
+	height:140px;
+	box-shadow: 0 2px 5px #DDD;
+	position:relative;
+}
+.h_next .con .form form{
+	width:100%;
+	height:100px;
+	background-color:#fff;
+}
+.h_next .con .form form textarea{
+	width:100%;
+	height:100%;
+	padding:20px;
+	font-size:16px;
+	color:#999;
+}
+.h_next .con .form .photo{
+	width:100%;
+	height:40px;
+	position:absolute;
+	bottom:0;
+	padding:0 30px;
+}
+.h_next .con .form .photo input{
+	background: url(../pic/camera.png) no-repeat;
+	padding-top:3px;
+	cursor: pointer;
+}
+.h_next .con .form .photo .btn{
+	width:200px;
+	height:40px;
+	background-color:#181818;
+	color:#f5f5f5;
+	position:absolute;
+	right:0;
+	bottom:0;
+}
+
+.container{
+	width:100%;
+	min-width:1000px;
+	margin-bottom:50px;
+	
+}
+.container .main{
+	width:1000px;
+	height:480px;
+	margin:0 auto;
+	margin-top:30px;
+	background-color:#FFF;
+	padding:10px;
+	box-shadow: 0 2px 5px #AAA;
+}
+.container .main .m_top{
+	width:100%;
+	height:80px;
+	padding:5px 0;
+	position:relative;
+}
+.container .main .m_top img{
+	width:65px;
+	height:65px;
+	border-radius: 50%;
+}
+.container .main .m_top .word{
+	width:170px;
+	height:100%;
+	padding:10px 0;
+	position:absolute;
+	top:0;
+	left:90px;
+	
+}
+.container .m_top .word .name{
+	font-size: 16px;
+	padding:5px 0;
+}
+.container .m_top .word .date{
+	color:#999;
+}
+.container .m_top .jiantou{
+	width:16px;
+	height:16px;
+	border:2px solid #282828;
+	position:absolute;
+	top:50%;
+	right:20px;
+	margin:-8px 0 0 0;
+	transform: rotateZ(45deg);
+	border-top-color:transparent;
+	border-left-color:transparent;
+}
+.container .m_top .j_hidden{
+	width:100px;
+	height:40px;
+	line-height:40px;
+	position:absolute;
+	right:0;
+	bottom:-20px;
+	z-index: 5;
+	font-size: 16px;
+	background-color:#FFF;
+	box-shadow: 0 0 5px #AAAAAA;
+	text-align:center;
+	display: none;
+}
+.container .m_top .j_hidden a{
+	color:#777;
+}
+
+.container .main .m_content{
+	width:100%;
+	height:60px;
+	font-size:16px;
+	margin-top:5px;
+	overflow: hidden;
+}
+.container .main .m_content p{
+	
+}
+.container .main .pic{
+	/*width:100%;*/
+	height:250px;
+	margin-top:5px;
+	overflow: hidden;
+	position:relative;
+	white-space: nowrap;
+}
+.container .main .pic .p_ul{
+	width:940px;
+	height:100%;
+	margin:0 auto;
+}
+.container .main .pic .p_ul li{
+	height:100%;
+	margin-left:30px;
+	float:left;
+}
+.container .pic .p_ul li img{
+	width:195px;
+	height:100%;
+}
+.container .pic .pre{
+	position:absolute;
+	left:20px;
+	top:100px;
+	display: none;
+}
+.container .pic .next{
+	position:absolute;
+	right:20px;
+	top:100px;
+	display: none;
+}
+.container .main .m_bottom{
+	width:100%;
+	height:40px;
+	margin-top:10px;
+}
+.container .main .m_bottom .zan,.container .main .m_bottom .pinglun{
+	width:120px;
+	height:100%;
+	font-size:18px;
+	line-height: 40px;
+	float:right;
+}
+.container .main .m_bottom .zan img,.container .main .m_bottom .pinglun img{
+	width:20px;
+	vertical-align: middle;
+	margin-right:10px;
+}
+
+.container .load{
+	width:150px;
+	height:50px;
+	line-height:50px;
+	margin:0 auto;
+	border:2px solid #ffac00;
+	border-radius: 25px;
+	text-align: center;
+	font-size: 28px;
+	color:#FFAC00;
+	cursor: pointer;
+	margin-top:50px;
+}
+.h_next .tishi{
+	width:400px;
+	height:300px;
+	position:fixed;
+	top:80px;
+	left:50%;
+	margin-left:-150px;
+	z-index: 10;
+	border-radius:20px;
+	display: none;
+	box-shadow: 0 0 10px #ffac00;
+	background-color:#FFF;
+	text-align: center;
+	font-size:20px;
+}
+.h_next .tishi img{
+	width:150px;
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	margin:auto;
+}
+.h_next .tishi .cha{
+	position:absolute;
+	top:10px;
+	right:10px;
+	font-size:20px;
+}
+.h_next .tishi #w{
+	position:absolute;
+	bottom:20px;
+	left:30%;
+	
+}
